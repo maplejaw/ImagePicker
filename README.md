@@ -55,5 +55,6 @@
 ```
 
 #Thanks
-图片加载使用了[**鸿洋博客中的imageloader**](http://blog.csdn.net/lmj623565791/article/details/38476887)
+* 图片加载使用了[**鸿洋博客中的imageloader**](http://blog.csdn.net/lmj623565791/article/details/38476887)
+* 图片预览缩放，使用了[**PhotoView**](https://github.com/chrisbanes/PhotoView)
 
