@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+>
+
+
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/layout_sel_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffffff"
+        android:clickable="true"
+        >
+        <ImageView
+            android:id="@+id/checkbox_sel_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:src="@drawable/selector_checkbox_photo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?colorPrimary"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/checkbox_sel_flag"
+            android:text="选择"/>
+
+
+        <TextView
+            android:id="@+id/tv_to_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_blue_to_gray"
+            android:textColor="#ffffffff"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="确定"/>
+    </RelativeLayout>
+
+
+    <com.maplejaw.library.view.HackyViewPager
+        android:id="@+id/viewpager_preview_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_sel_bar"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_preview_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:layout_above="@id/layout_sel_bar"
+        android:background="#80000000"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:includeFontPadding="false"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>
