@@ -1,10 +1,15 @@
 #ImagePicker
 一个高仿微信、QQ图片选择库，支持单选，多选，预览，拍照。
 #效果图
+* 单选带相机
 <img src="image/image1.png"  width="50%"/>
-<img src="image/image2.png"  width="50%"/>     
+* 多选带相机
+<img src="image/image2.png"  width="50%"/>    
+* 多选不带相机 
 <img src="image/image3.png"  width="50%"/>
+* 预览
 <img src="image/image4.png"  width="50%"/>
+
 #使用说明
 * 打开图库
 
